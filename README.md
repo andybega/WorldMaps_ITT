@@ -32,21 +32,5 @@ Notes
 * The R factor variable for levels of torture includes the 5-point scale, no allegations, and no data. "Allegations, no LoT" is treated as "infrequent", and all other categories are treated as "No Data" (i.e. missing). 
 
 * Running this with data beyond the original 1995 to 2005 range shouldn't be a problem as long as the file and variable names are the same.
-
-Andreas Beger
-
-1. In one directory you will need:
-    terror_location.dta
-    COW state list.dta
-    data_prep.do         # Stata script for 1 year global cross-section
-    world_maps.R         # R script to make the maps
-    /world               # Folder that contains world shape files 
-    /images              # Folder which will contain .png map images
-
-2. Run data_prep.do (change so wd is above directory)
-    Should create 4 .csv files for each year you want to plot
-
-3. Run world_map.R
-    Should create 4 .png map images in /images
     
 
