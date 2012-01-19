@@ -48,13 +48,5 @@ Andreas Beger
 
 3. Run world_map.R
     Should create 4 .png map images in /images
-
-If you want to add more years…
-  - Add a block of code in the Stata .do file to create a .csv for that
-    year.
-  - R script: Add a line like world$tyear <- MapFormat(…) where you see the
-    others.
-  - R script: Add a block to create the map image at the bottom, like
-    the others.
     
 
